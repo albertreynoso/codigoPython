@@ -1,6 +1,7 @@
-from Operacion import suma
+from Operacion import operacion
 if __name__ == '__main__':
- primerSumando = int(input("Ingrese el primer sumando: "))
- segundoSumando = int(input("Ingrese segundo sumando: "))
+ primerNumero = int(input("Ingrese el primer número: "))
+ segundoNumero = int(input("Ingrese el segundo número: "))
+ tercerNumero = int(input("Ingrese el tercer número: "))
 
- print(f"{primerSumando} + {segundoSumando} = {suma(primerSumando,segundoSumando)}")
+ print(f"{primerNumero} * {segundoNumero} + {tercerNumero} = {operacion(primerNumero,segundoNumero, tercerNumero)}")
